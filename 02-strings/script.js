@@ -13,7 +13,6 @@ console.log(name);
 let number = 21 ; 
 let text = `testo`
 let bool = false;
-console.log(number, text, bool);
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
 // in console la stringa con il nome completo
@@ -26,5 +25,5 @@ console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
-const numberOfLettersInAlphabet = null;
-console.log(numberOfLettersInAlphabet); // Output: 26
+const numberOfLettersInAlphabet = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
+console.log(numberOfLettersInAlphabet.length); // Output: 26
